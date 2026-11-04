@@ -3,8 +3,7 @@
 Semua perubahan penting pada proyek ini dicatat di sini.
 Format mengikuti [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) dan penomoran versi mengikuti [Semantic Versioning](https://semver.org/).
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 ## [2.3.0] - 2026-11-03
 
 ### Added
@@ -27,10 +26,6 @@ Format mengikuti [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) dan pe
 - Semua pengaturan lama dipertahankan. Pengaturan baru disimpan di satu option terpisah, `aaa_visual_settings`.
 - Kegagalan gambar (Gemini, renderer, memori, penyimpanan) tidak pernah menggagalkan artikel.
 
-=======
->>>>>>> 10a0a232d5ef32e17dae34b6c3a30733a78c99b4
-=======
->>>>>>> 10a0a232d5ef32e17dae34b6c3a30733a78c99b4
 ## [2.2.0] - 2026-10-28
 
 ### Added
