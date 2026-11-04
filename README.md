@@ -3,6 +3,11 @@
 Plugin WordPress untuk membuat artikel SEO secara otomatis dengan Google Gemini lewat alur multi-agent, lengkap dengan tahap **Humanizer** yang menghapus pola tulisan khas AI.
 *(English: a WordPress plugin that generates SEO articles through a multi-agent Gemini pipeline, with a Humanizer stage that removes common AI-writing patterns.)*
 
+## 🚀 Dukung Proyek Ini
+Membangun dan merawat alur kerja *multi-agent* di WordPress membutuhkan riset teknis yang panjang. Bantuan Anda sangat berarti untuk memastikan proyek ini terus berkembang, bug cepat tertangani, dan fitur baru lebih cepat dirilis untuk komunitas. Dukung seikhlasnya via Saweria!
+
+[![Dukung via Saweria](https://img.shields.io/badge/Saweria-FFB600?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://saweria.co/fksd)
+
 ## Fitur
 
 - Antrean artikel yang berjalan di latar belakang (WP-Cron), sehingga halaman admin tidak menunggu.
