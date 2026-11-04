@@ -34,11 +34,14 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## Liberation Sans (font gambar Visual Content Agent)
 
 - Digunakan di: `fonts/LiberationSans-Bold.ttf` dan `fonts/LiberationSans-Regular.ttf` (renderer gambar lokal, `class-aaa-visual-renderer.php`)
 - Sumber: Liberation Fonts 2.1.5 (Red Hat, Inc.; data digital Google Corporation / Arimo)
 - Lisensi: SIL Open Font License 1.1. Teks lisensi lengkap ada di `fonts/OFL.txt`.
+=======
+>>>>>>> 10a0a232d5ef32e17dae34b6c3a30733a78c99b4
 =======
 >>>>>>> 10a0a232d5ef32e17dae34b6c3a30733a78c99b4
