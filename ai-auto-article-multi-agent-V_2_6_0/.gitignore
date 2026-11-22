@@ -1,0 +1,23 @@
+# Rahasia dan konfigurasi lokal
+.env
+.env.*
+*.key
+wp-config.php
+
+# Berkas bantu/diagnostik, jangan ikut di-commit
+tes-koneksi-*.php
+
+# Paket dan sisa kerja
+*.zip
+*.log
+*.bak
+*.orig
+*.tmp
+
+# Editor dan sistem
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
+vendor/
