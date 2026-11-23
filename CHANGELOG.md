@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.7.1] - 2026-11-23
+
+### Ditambahkan
+- **Semantic Keyword Generator untuk Mode Berita** (`AAA_News::generate_keywords()`): satu panggilan Gemini (model Penulis Berita) membaca artikel mentah dan menghasilkan tiga keyword berita yang berbeda, satu per sudut pandang, dengan bahasa jurnalistik dan hanya berdasar fakta artikel mentah. Keyword dibuat dan disimpan sebelum tugas penulisan masuk antrean.
+- Fallback aman bila generator gagal atau hasilnya tidak valid (kosong, terlalu pendek atau panjang, hanya label sudut, atau kembar): keyword memakai topik editor atau baris pertama artikel mentah dengan awalan "Fakta utama:", "Dampak:", "Latar belakang:". Kegagalan dicatat lewat `error_log` (saat `WP_DEBUG` aktif) dan di `agent_data` (`keyword_source`, `keyword_note`). Tidak ada fakta baru yang dibuat.
+
+### Diubah
+- Kolom `keyword` tugas berita kini berisi keyword semantik, bukan lagi "topik [Label sudut]".
+- Judul post WordPress, judul pada Featured Image, dan kata kunci Humanizer memakai keyword tersebut secara identik (satu sumber data). Judul dari JSON Penulis Berita tidak lagi dipakai untuk tugas baru; tag `<h1>` di isi berita dibuang agar judul hanya satu.
+- Prompt Penulis Berita yang tersimpan tidak diubah; keyword ditambahkan ke prompt saat berjalan.
+
+### Kompatibilitas
+- Tanpa perubahan struktur database. Tugas berita lama (tanpa keyword semantik) tetap berjalan dengan judul dan keyword lama.
 Riwayat perubahan plugin **AI Auto Article Gemini Pro (Multi-Agent)**.
 Format mengikuti [Keep a Changelog](https://keepachangelog.com/id-ID/1.1.0/). Basis awal: versi 2.3.0.
 
